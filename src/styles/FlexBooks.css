@@ -1,0 +1,19 @@
+.wrapper {
+    margin: 1rem 0px 1rem 0px;
+    display: flex;
+    flex-direction: row;
+    overflow-x: scroll;
+}
+
+.wrapper::-webkit-scrollbar {
+    height: 10px;
+}
+
+.wrapper::-webkit-scrollbar-track {
+    margin-inline: 10px;
+}
+
+.wrapper::-webkit-scrollbar-thumb {
+    background: #422A14;
+    border-radius: 100vw;
+}

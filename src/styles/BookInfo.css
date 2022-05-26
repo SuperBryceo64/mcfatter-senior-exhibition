@@ -1,0 +1,127 @@
+.info-page {
+    border: 1px solid transparent;
+    background: #EDDDD0;
+    height: calc(100vh - 100px);
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+}
+
+.info-cover {
+    width: 300px;
+}
+
+.info-hidden-cover {
+    visibility: hidden;
+    position: absolute;
+}
+
+.info-text {
+    background: #EDDDD0;
+    height: 65vh;
+    width: 45vw;
+    padding: 3rem;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+}
+
+.info-title {
+    color: #422A14;
+    font-size: 3rem;
+    padding-bottom: 3%;
+    font-size: 3rem;
+    font-family: 'Georgia', 'Century Expanded', 'Times New Roman', serif;
+}
+
+.info-author {
+    color: #422A14;
+    border-bottom: 2px solid #422A14;
+    padding-bottom: 5%;
+    font-size: 1rem;
+    font-family: 'Georgia', 'Century Expanded', 'Times New Roman', serif;
+}
+
+.info-description {
+    color: #422A14;
+    height: 50%;
+    padding-top: 3%;
+    font-size: 1rem;
+    font-family: 'Times New Roman', serif;
+}
+
+.info-amount {
+    color: #422A14;
+    padding-top: 3%;
+    padding-bottom: 3%;
+    font-size: 1rem;
+    font-family: 'Times New Roman', serif;
+}
+
+.info-checkout {
+    padding: 20px 50px;
+    align-self: center;
+    margin: 32px;
+    background: #487876;
+    color: #F1F1F1;
+    font-size: 1rem;
+    font-family: 'Times New Roman', serif;
+    border-radius: 30px;
+    transition: 0.3s;
+    animation: ease;
+}
+
+.info-checkout:hover{
+    cursor: pointer;
+    background: #EF5D58;
+}
+
+.info-checked-out {
+    padding: 20px 45px;
+    align-self: center;
+    margin: 32px;
+    background: #EDDDD0;
+    color: #422A14;
+    font-size: 1rem;
+    font-family: 'Times New Roman', serif;
+    font-weight: bold;
+    border: 2px dashed #422A14;
+    border-radius: 30px;
+}
+
+@media only screen and (max-width: 800px) {
+    .info-page {
+        flex-direction: column;
+        min-height: calc(100vh - 100px);
+        height: fit-content;
+    }    
+
+    .info-text {
+        height: fit-content;
+        width: 90vw;
+        padding: 0px;
+    }
+
+    .info-title {
+        padding-top: 1rem;
+    }
+
+    .info-cover {
+        visibility: hidden;
+        position: absolute;
+    }
+
+    .info-hidden-cover{
+        visibility: visible;
+        position: inherit;
+        width: 250px;
+        margin: 2rem 0rem;
+        align-self: center;
+    }
+
+    .info-checkout {
+        width: 5rem;
+        text-align: center;
+    }
+}
