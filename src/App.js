@@ -68,11 +68,10 @@ function App() {
 
   return (
     <div className='App'>
-      <Router>
+      <Router basename='/mcfatter-senior-exhibition'>
         <NavBar user={user} unsubUser={unsubUser}/>
         <Switch>
           <Route exact path='/'><Welcome user={user}/></Route>
-          <Route exact path='/mcfatter-senior-exhibition'><Welcome user={user}/></Route>
           <Route exact path='/sign-in'><SignIn/></Route>
           <Route exact path='/sign-up'><SignUp user={user}/></Route>
           <Route exact path='/catalog' ><Catalog books={books}/></Route>
