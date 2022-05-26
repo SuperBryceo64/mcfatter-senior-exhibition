@@ -1,0 +1,16 @@
+{
+  "files": {
+    "main.css": "/mcfatter-senior-exhibition/static/css/main.0f7cfb48.css",
+    "main.js": "/mcfatter-senior-exhibition/static/js/main.f4b8c4c5.js",
+    "static/media/random-book-cover.jpg": "/mcfatter-senior-exhibition/static/media/random-book-cover.16b10aab91db23074801.jpg",
+    "static/media/logo-mcfatter.png": "/mcfatter-senior-exhibition/static/media/logo-mcfatter.82d50760f3f17b109f2b.png",
+    "static/media/default-book-cover.jpg": "/mcfatter-senior-exhibition/static/media/default-book-cover.b4b752d9420877ecc11e.jpg",
+    "index.html": "/mcfatter-senior-exhibition/index.html",
+    "main.0f7cfb48.css.map": "/mcfatter-senior-exhibition/static/css/main.0f7cfb48.css.map",
+    "main.f4b8c4c5.js.map": "/mcfatter-senior-exhibition/static/js/main.f4b8c4c5.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.0f7cfb48.css",
+    "static/js/main.f4b8c4c5.js"
+  ]
+}
